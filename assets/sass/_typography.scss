@@ -1,0 +1,70 @@
+body{
+	font-size:17.5px;
+}
+h1,
+h2,
+body{
+	@include font();
+}
+h2 a,
+body{
+	color:$white;
+}
+h2 a{
+	background-color:$beige;
+	text-decoration:none;
+	font-size:.75em;
+	padding:.3em;
+	width:20px;
+	&:hover{
+		background-color:$mint;
+	}
+}
+h1{
+	color:$mint;
+	font-size:1.75em;
+	font-weight:100;
+}
+h3 a{
+	color:$grey;
+	background-color:$mint;
+	font-weight:400;
+	padding:.25em;
+	&:hover{
+		background-color:$beige;
+	}
+}
+.bottom-nav{
+	list-style:none;
+	li a{
+		color:$beige;
+		text-decoration:none;
+		font-weight:700;
+		border-bottom: 3px solid $beige;
+		&:hover{
+			background-color:$mint;
+			padding:.3em;
+			border:none;
+		}
+	} 
+.contact-button a{
+			color:$grey;
+			background-color:$beige;
+			padding:.3em;
+			text-decoration: none;
+			border-bottom: 0;
+		}
+}
+p{
+	margin:0 auto;
+	line-height:1.2em;
+}
+/*synopsis
+---------------------------------------*/
+.synopsis-bold{
+	font-weight:700;
+	display:block;
+	padding-bottom:3%;
+}
+
+

@@ -1,0 +1,32 @@
+#overlay{
+	background: rgba(255,255,255,0.0);
+	width:100%;
+	height:100vh;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	text-align: center;
+}
+
+#overlay img{
+	width:80%;
+	margin-top:15vh;
+	
+}
+
+#overlay p{
+	color:#fff;
+	font-size: 1em;
+}
+
+@media screen and (min-width: 769px) {
+	#overlay img{
+		width:70%;
+	}
+}
+@media screen and (min-width: 1460px) {
+	#overlay img{
+		width:60%;
+	}
+}
